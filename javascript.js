@@ -58,7 +58,7 @@ $(function(){
     //answer = 3;
    // base = 9973;
     modulus = bigInt(997);
-    answer = bigInt(3);
+    answer = bigInt(5);
     $(".wrapper").html(Math.pow(base, 10) % modulus - answer);
   });
   
