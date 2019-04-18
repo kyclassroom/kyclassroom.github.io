@@ -1,1 +1,3 @@
-$(".wrapper").html("<p>Trial</p>");
+$(".login").click(function(){
+  $(".wrapper").html("<p>Trial</p>");
+});
