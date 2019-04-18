@@ -52,7 +52,7 @@ $(function(){
   
   $(".login").click(function(){
     $.ajax({url: "https://kyclassroom.github.io/test.py", success: function(result){
-      $(".wrapper").val(result);
+      $(".wrapper").html(result);
     },
     datatype: "script"
   });
