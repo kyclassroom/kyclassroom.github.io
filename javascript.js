@@ -3,7 +3,7 @@
 //});
 
 $(".login-btn").click(function(){
-  alert("click");
+  $(this).hide();
 });
 
 //function myFunction(){
