@@ -1,1 +1,1 @@
-console.log("trial");
+$(".wrapper").html("<p>Trial</p>");
