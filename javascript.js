@@ -50,11 +50,7 @@ $(function(){
     `);
   });
   
-  //$(".eng").click(function(){
-    //location.reload();
-  //});
-  
-  $(".login-btn").click(function(){
+  $(".login").click(function(){
     $(".wrapper").html("<p>Trial</p>");
   });
   
