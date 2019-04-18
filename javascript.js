@@ -6,10 +6,10 @@ $(function(){
       <div class="py-5 bg-primary text-white">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-10">
+            <div class="col-9">
               <h1>KY教室</h1>
             </div>
-            <div class="col-2 text-right">
+            <div class="col-3 text-right">
               <p class="text-white eng">Eng</p>
             </div>
           </div>
@@ -18,19 +18,17 @@ $(function(){
 
       <div class="py-5">
         <div class="container">
-          <form action="#">
-            <div class="form-group">
-              使用者名稱：
-              <input type="text" class="form-control username">
-            </div>
-            <div class="form-group">
-              密碼：
-              <input type="password" class="form-control password">
-            </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-success btn-lg">登入</button>
-            </div>
-          </form>
+          <div class="py-3">
+            <span>使用者名稱：</span>
+            <input type="text" class="form-control username">
+          </div>
+          <div class="py-3">
+            <span>密碼：</span>
+            <input type="password" class="form-control password">
+          </div>
+          <div class="py-3 text-center">
+            <button type="button" class="btn btn-success btn-lg login-btn">登入</button>
+          </div>
         </div>
       </div>
 
@@ -50,6 +48,10 @@ $(function(){
       </div>
 
     `);
+  });
+  
+  $(".eng").click(function(){
+    location.reload();
   });
   
   $(".login-btn").click(function(){
