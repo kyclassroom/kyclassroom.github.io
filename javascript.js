@@ -10,7 +10,7 @@ $(function(){
               <h1>KY教室</h1>
             </div>
             <div class="col-3 text-right">
-              <p class="text-white eng">Eng</p>
+              <button type="button" class="btn btn-success" onclick="location.reload()">Eng</button>
             </div>
           </div>
         </div>
@@ -50,9 +50,9 @@ $(function(){
     `);
   });
   
-  $(".eng").click(function(){
-    location.reload();
-  });
+  //$(".eng").click(function(){
+    //location.reload();
+  //});
   
   $(".login-btn").click(function(){
     $(".wrapper").html("<p>Trial</p>");
