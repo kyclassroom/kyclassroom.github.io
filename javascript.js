@@ -51,7 +51,9 @@ $(function(){
   });
   
   $(".login").click(function(){
-    $(".wrapper").html("<p>Trial</p>");
+    $.ajax({url: "https://kyclassroom.github.io/test.py", success: function(result){
+      $(".wrapper").html("<p>" + result + "</p>");
+    }});
   });
   
 });
