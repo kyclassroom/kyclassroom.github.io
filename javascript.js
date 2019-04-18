@@ -10,7 +10,7 @@ $(function(){
               <h1>KY教室</h1>
             </div>
             <div class="col-2 text-right">
-              <a href="https://kyclassroom.github.io" class="text-white">Eng</a>
+              <p class="text-white eng">Eng</p>
             </div>
           </div>
         </div>
