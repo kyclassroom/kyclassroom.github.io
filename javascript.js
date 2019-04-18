@@ -53,12 +53,8 @@ $(function(){
   $(".login-btn").click(function(){
     $(".login-txt").addClass("d-none");
     $(".login-spin").removeClass("d-none");
-    base = 2;
-    //modulus = 997;
-    //answer = 3;
-   // base = 9973;
+    base = 9973;
     modulus = bigInt(997);
-    answer = bigInt(5);
     $(".wrapper").html(Math.pow(base, 10) % modulus - answer);
   });
   
