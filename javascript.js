@@ -1,11 +1,5 @@
-//$(".login-btn").click(function(){
-  //$(".wrapper").html("<p>Trial</p>");
-//});
-
-$(".login-btn").click(function(){
-  $(this).hide();
+$(function(){
+  $(".login-btn").click(function(){
+    $(".wrapper").html("<p>Trial</p>");
+  });
 });
-
-//function myFunction(){
-  //alert("clicked once");
-//}
