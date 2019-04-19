@@ -2,7 +2,8 @@ $(function(){
   
   $(".chi").click(function(){
     $(".kyclassroom").html("KY教室");
-    $(".chi").html("<button type="button" class="btn btn-success" onclick="location.reload()">Eng</button>");
+    $(".chi").html("Eng");
+    $(".chi").attr("onclick", "location.reload()");
     $(".username-txt").html("使用者名稱：");
     $(".password-txt").html("密碼：");
     $(".login-btn").html("登入");
