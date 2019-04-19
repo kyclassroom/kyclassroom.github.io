@@ -3,6 +3,7 @@ $(function(){
   $(".chi").click(function(){
     $(".kyclassroom").html("KY教室");
     $(".chi").html("Eng");
+    $(".chi").removeClass("chi");
     $(".chi").attr("onclick", "location.reload()");
     $(".username-txt").html("使用者名稱：");
     $(".password-txt").html("密碼：");
