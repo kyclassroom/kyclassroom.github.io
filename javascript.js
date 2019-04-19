@@ -3,8 +3,8 @@ $(function(){
   $(".chi").click(function(){
     $(".kyclassroom").html("KY教室");
     $(".chi").html("Eng");
-    $(".chi").removeClass("chi");
     $(".chi").attr("onclick", "location.reload()");
+    $(".chi").removeClass("chi");
     $(".username-txt").html("使用者名稱：");
     $(".password-txt").html("密碼：");
     $(".login-btn").html("登入");
