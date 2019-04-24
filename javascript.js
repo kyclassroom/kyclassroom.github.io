@@ -7,7 +7,9 @@ $(function(){
     $(".chi").removeClass("chi");
     $(".username-txt").html("使用者名稱：");
     $(".password-txt").html("密碼：");
-    $(".login-btn").html("登入");
+    $(".login-btn-eng").html("登入");
+    $(".login-btn-eng").addClass("login-btn-chi");
+    $(".login-btn-eng").removeClass("login-btn-eng");
     $(".txt").html(`
       歡迎來到KY教室！
       <br><br>
