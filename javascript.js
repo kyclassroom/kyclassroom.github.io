@@ -1,6 +1,6 @@
 $(function(){  
   
-  $(".chi").click(function(){
+  $(".wrapper-index .chi").click(function(){
     $(".kyclassroom").html("KY教室");
     $(".chi").html("Eng");
     $(".chi").attr("onclick", "location.reload()");
