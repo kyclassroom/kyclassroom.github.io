@@ -20,6 +20,4 @@ $(function(){
     $(".try-btn").html("試用");
   });
   
-  $(".dialog").dialog();
-  
 });
