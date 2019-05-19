@@ -14,4 +14,12 @@ $(function(){
   btn_click("distance_formula");
   btn_click("in-centre_formula");
   btn_click("recurrence");
+  btn_click("tanget_half_angle_formulas");
+  btn_click("first_principles");
+  btn_click("curve_skteching");
+  btn_click("t_formulas");
+  btn_click("ellipse");
+  btn_click("eigenvalue");
+  btn_click("reduced_row_echelon_form");
+  btn_click("normal");
 });
