@@ -12,6 +12,6 @@ $(function(){
   btn_click("angle_between_two_planes");
   general_click("angle_between_two_planes", "_hint", "_content");
   btn_click("distance_formula");
-  btn-click("in-centre_formula");
-  btn-click("recurrence");
+  btn_click("in-centre_formula");
+  btn_click("recurrence");
 });
