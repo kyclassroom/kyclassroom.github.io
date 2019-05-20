@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <title>KY教室</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://kyclassroom.github.io/javascript.js"></script>
+</head>
+<body>
+
+<div class="py-4 bg-primary">
+  <div class="container">
+    <a href="index.html"><h1 class="text-white text-center">KY教室</h1></a>
+    <h6 class="text-white text-center">kyclassroom@gmail.com</h6>
+  </div>
+</div>
+
+<h2 class="py-4 text-center">數學科M1/M2改成選修科的利弊</h2>
+<div class="container">
+  <p class="text-justify">
+    新高中課程的其中一個爭議點是數學科的M1和M2應否改成選修科。我對此沒有強烈的立場，但也可以跟大家分析一下各項做法的利弊。
+    <br><br>
+    先交代一些背景資料。現在的DSE最多考八科(M1/2不當作一科)，但如果要考八科的話，選科會受到限制(下面稱作「限制」)。這些學生的其中一科必須選擇：
+    <ol>
+      <li type="a">倫理與宗教 / 音樂 / 體育 / 視覺藝術；</li>
+      <li type="a">應用學習科目；</li>
+      <li type='a">其他語言科目。</li>
+    </ol>
+    <br>
+    第一個做法是
+    
+    
+    第一個做法是合併M1和M2成為新的選修科。事實上，教育局也曾經發出<a href="m1_m2_consultation_chi.pdf">中文版</a>和<a href="m1_m2_consultation_eng.pdf">英文版</a>諮詢文件，提出合併M1和M2成為「進階數學(Further Mathematics)」選修科，只是諮詢
+    
+    第二個
+    
+    <ol>
+      <li>
+        必修科盡量考「客觀題」，不考「主觀題」，避免學生被迫參與主觀評分影響前途的遊戲。
+      </li>
+      <li>
+        不宜削減任何選科組合(下文會詳述)。
+      </li>
+    </ol>
+    <br>
+    具體建議：
+    <ol>
+      <li>
+        現在的DSE最多考八科(M1/2不當作一科)，但如果要考八科的話，選科會受到限制(下面稱作「限制」)。這些學生的其中一科必須選擇：
+        <ol>
+          <li type="a">倫理與宗教 / 音樂 / 體育 / 視覺藝術；</li>
+          <li type="a">應用學習科目；</li>
+          <li type='a">其他語言科目。</li>
+        </ol>
+        我建議取消「限制」
+      <li>
+        先談語文科，也就是中文與英文。我建議：範文60%、課外閱讀理解20% (中文科文白各20%)、作文20%
+      </li>
+      </li>
+    </ol>
+  </p>
+  </div>
+</body>
+</html>
