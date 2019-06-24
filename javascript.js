@@ -18,3 +18,7 @@ $(".submit").click(function(){
     submit_chi($(this).html());
   });
 });
+
+function preview_eng(html){
+  $(".html_eng").append("<div>" + html + </div>");
+}
