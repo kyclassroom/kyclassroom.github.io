@@ -1,11 +1,20 @@
 $(function(){
   
   setInterval(function() {
-    $(".html_eng").html(eval($("#eng").val()));
+    eval($("#eng").val())
   }, 10);
   
   setInterval(function() {
-    $(".html_chi").html(eval($("#chi").val()));
+    eval($("#chi").val())
   }, 10);
   
+});
+
+$(".submit").click(function(){
+  $(".html_eng").children().each(function(){
+    submit_eng($(this).html());
+  });
+  $(".html_chi").children().each(function(){
+    submit_chi($(this).html());
+  });
 });
