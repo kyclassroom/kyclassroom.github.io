@@ -2,11 +2,11 @@ $(function(){
   
   setInterval(function() {
     eval($("#eng").val())
-  }, 10);
+  }, 3000);
   
   setInterval(function() {
     eval($("#chi").val())
-  }, 10);
+  }, 3000);
   
 });
 
