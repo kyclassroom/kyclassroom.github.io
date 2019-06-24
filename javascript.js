@@ -5,7 +5,7 @@ $(function(){
     eng = $("#eng").val()
     if (eng != previous_eng) {
       previous_eng = eng;
-      $(".latex_eng").html(eng);
+      $(".html_eng").html(eng);
     }
   }, 10);
   
@@ -14,7 +14,7 @@ $(function(){
     chi = $("#chi").val()
     if (chi != previous_chi) {
       previous_chi = chi;
-      $(".latex_chi").html(chi);
+      $(".html_chi").html(chi);
     }
   }, 10);
   
