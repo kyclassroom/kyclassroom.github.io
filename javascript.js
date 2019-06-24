@@ -1,7 +1,8 @@
 $(function(){
   
   $(".preview_eng").click(function(){
-    eval($("#eng").val())
+    console.log($("#eng").val());
+    eval($("#eng").val());
   });
   
 });
