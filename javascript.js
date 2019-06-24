@@ -20,5 +20,5 @@ $(".submit").click(function(){
 });
 
 function preview_eng(html){
-  $(".html_eng").append("<div>" + html + </div>");
+  $(".html_eng").append("<div>" + html + "</div>");
 }
