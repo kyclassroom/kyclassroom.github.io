@@ -13,8 +13,8 @@ $(function(){
   setInterval(function() {
     chi = $("#chi").val()
     if (chi != previous_chi) {
-      previous_eng = chi;
-      $(".latex_eng").html(chi);
+      previous_chi = chi;
+      $(".latex_chi").html(chi);
     }
   }, 10);
   
