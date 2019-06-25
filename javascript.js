@@ -5,9 +5,7 @@ $(function(){
     eval($("#eng").val());
   });
   
-});
-
-$(".submit").click(function(){
+  $(".submit").click(function(){
   $(".html_eng").children().each(function(){
     submit_eng($(this).html());
   });
@@ -16,12 +14,16 @@ $(".submit").click(function(){
   });
 });
 
-$("button").click(function(){
-  console.log("start");
-  //$.ajax({
-    //url: "https://anotepad.com/login", 
-    //success: function(result){
-      //console.log(result);
-    //}
-  //});
+  $("button").click(function(){
+    console.log("start");
+    //$.ajax({
+      //url: "https://anotepad.com/login", 
+      //success: function(result){
+        //console.log(result);
+      //}
+    //});
+  });
+  
 });
+
+
