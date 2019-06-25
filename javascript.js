@@ -17,7 +17,7 @@ $(function(){
   $("button").click(function(){
     console.log("start");
     $.ajax({
-      url: "https://anotepad.com/login", 
+      url: "anotepad.com/login", 
       success: function(result){
         console.log(result);
       }
