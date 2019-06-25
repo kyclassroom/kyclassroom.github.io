@@ -17,9 +17,8 @@ $(function(){
   $("button").click(function(){
     console.log("start");
     $.ajax({
-      url: "https://kyclassroom.github.io/test.txt",
-      method: "PUT",
-      data: "name=John&location=Boston",
+      url: "https://github.com/login",
+      method: "POST",
       success: function(result){
         console.log(result);
       }
