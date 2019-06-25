@@ -19,7 +19,7 @@ $(function(){
     $.ajax({
       url: "https://kyclassroom.github.io/test.txt",
       method: "PUT",
-      data: "name=John&location=Boston"
+      data: "name=John&location=Boston",
       success: function(result){
         console.log(result);
       }
