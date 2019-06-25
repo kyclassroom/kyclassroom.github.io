@@ -17,7 +17,7 @@ $(function(){
   $("button").click(function(){
     console.log("start");
     $.ajax({
-      url: "https://anotepad.com/login", 
+      url: "https://docs.google.com/spreadsheets/d/1Gy1Qt1ko1OcESFmvS2EgUSKXQZKj9hQCFVssWVdi7dA", 
       success: function(result){
         console.log(result);
       }
