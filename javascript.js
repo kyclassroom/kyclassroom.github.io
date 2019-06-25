@@ -18,10 +18,10 @@ $(".submit").click(function(){
 
 $("button").click(function(){
   console.log("start");
-  $.ajax({
-    url: "https://anotepad.com/login", 
-    success: function(result){
-      console.log(result);
-    }
-  });
+  //$.ajax({
+    //url: "https://anotepad.com/login", 
+    //success: function(result){
+      //console.log(result);
+    //}
+  //});
 });
